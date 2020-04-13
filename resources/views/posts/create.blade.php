@@ -31,7 +31,7 @@
 
                             <div class="form-group">
                                 <label for="content">Conteúdo</label>
-                                <textarea class="form-control" id="content" rows="3" name="content"
+                                <textarea class="form-control" id="conteudo" rows="3" name="conteudo"
                                           placeholder="Insira o conteúdo..."></textarea>
                             </div>
 

@@ -33,8 +33,8 @@
 
                             <div class="form-group">
                                 <label for="content">Conteúdo</label>
-                                <textarea class="form-control" id="content" rows="3" name="content"
-                                          placeholder="Insira o conteúdo...">{{ old('content') ?? $post->content }}</textarea>
+                                <textarea class="form-control" id="conteudo" rows="3" name="conteudo"
+                                          placeholder="Insira o conteúdo...">{{ old('conteudo') ?? $post->content }}</textarea>
                             </div>
 
                             <div class="form-group">

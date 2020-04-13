@@ -51,7 +51,7 @@ class PostController extends Controller
 
         $post = new Post();
         $post->title = $request->title;
-        $post->content = $request->content;
+        $post->content = $request->conteudo;
 
         if(!empty($request->published)) {
             $post->published = $request->published;
@@ -98,7 +98,7 @@ class PostController extends Controller
     public function update(Request $request, Post $post)
     {
         $post->title = $request->title;
-        $post->content = $request->content;
+        $post->content = $request->conteudo;
 
         if(isset($request->published)) {
             $post->published = $request->published;
